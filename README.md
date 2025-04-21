@@ -26,6 +26,6 @@ Corre la aplicación:
 npm run dev
 ```
 
-Abre en tu navegador: http://localhost:5173
+Abre en tu consola: http://localhost:5000
 
 
