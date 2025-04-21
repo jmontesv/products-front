@@ -15,19 +15,16 @@ Desarrollada con **Flask** para el backend y **React** para el frontend.
 - 🎨 Frontend con React + Vite + TypeScript
 
 ## 🌐 Frontend (React + Vite)
-Ve a la carpeta del frontend:
-
-```bash
-cd ../frontend
-```
 
 Instala las dependencias:
-bash ```
+```bash
 npm install
+```
 
 Corre la aplicación:
-bash ```
+```bash
 npm run dev
+```
 
 Abre en tu navegador: http://localhost:5173
 
