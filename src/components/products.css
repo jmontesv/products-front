@@ -1,0 +1,53 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;    
+}
+
+table { 
+    border-spacing: 0;
+    border: 1px solid rgb(241, 241, 241);
+    width: 100%;
+}
+
+table .keys th {
+    font-weight: 500;
+    color: rgb(90, 89, 89);
+    text-align: left;
+    padding: 1rem 1rem;
+    background-color: rgb(241, 241, 241);
+}
+
+table tr td {
+    padding: 1rem 1rem;
+}
+
+.table-body-scroll {
+    max-height: 600px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.products .filters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-filters {
+   display: flex;
+   column-gap: 2rem;
+}
+
+.price-filters  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameFilter {
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(241, 241, 241);
+    align-self: flex-start;
+    margin: 1rem 0;
+}

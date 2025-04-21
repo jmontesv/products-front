@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination .select-number-page {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem
+}
+
+.pages {
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.pages div {
+    cursor: pointer;
+}
+
+.pages .page-number-selected {
+    position: relative;
+    font-weight: bold;
+    color: rgb(47, 161, 238);
+}
+
+.pages .page-number-selected::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(36, 181, 248);
+    background-color: rgba(125, 223, 253, 0.5);
+    border-radius: 4px;
+    left: -50%;
+    top: 2px;
+}
