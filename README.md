@@ -14,4 +14,27 @@ Desarrollada con **Flask** para el backend y **React** para el frontend.
 - ⚡ Backend en Flask
 - 🎨 Frontend con React + Vite + TypeScript
 
+---
+
+## 🌐 Frontend (React + Vite)
+Ve a la carpeta del frontend:
+
+bash
+Copiar
+Editar
+cd ../frontend
+Instala las dependencias:
+
+bash
+Copiar
+Editar
+npm install
+Corre la aplicación:
+
+bash
+Copiar
+Editar
+npm run dev
+Abre en tu navegador: http://localhost:5173
+
 
