@@ -17,8 +17,9 @@ Desarrollada con **Flask** para el backend y **React** para el frontend.
 ## 🌐 Frontend (React + Vite)
 Ve a la carpeta del frontend:
 
-bash ```
+```bash
 cd ../frontend
+```
 
 Instala las dependencias:
 bash ```
